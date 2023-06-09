@@ -81,7 +81,6 @@ section {
     background-repeat: no-repeat;
 }
 .background-bottom {
-    background-color: var(--dark-grey);
     margin: 0 auto;
     height: 192px;
     padding-top: 60px;
@@ -540,4 +539,35 @@ a:focus {
     border-radius: 50%;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: var(--snow);
+}
+.footer-input {
+    margin-bottom: 12px;
+    margin-right: 12px;
+    width: 358px;
+    height: 50px;
+    color: var(--snow);
+    background-color: var(--dark-grey);
+}
+.footer-button {
+    background-color: var(--brand-color);
+    border: var(--brand-color);
+    border-radius: 4px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: var(--snow);
+    cursor: pointer;
+    width: 200px;
+    height: 55px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1, 9;
+    letter-spacing: 6%;
+    vertical-align: top;
+    text-align: center;
+    margin-bottom: 12px;
+    margin-right: 200px;
+}
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--dark-grey);
 }
