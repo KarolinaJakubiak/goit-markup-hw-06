@@ -632,6 +632,99 @@
                 <button type="button" class="close-btn" data-modal-close>
                     X
                 </button>
+                <form
+                    name="oreder-services"
+                    autocomplete="on"
+                    class="form-style"
+                >
+                    <h3>Zostaw swoje dane w formularzu poniżej</h3>
+                    <div class="form-parts">
+                        <div class="form-parts-style">
+                            <label for="name" class="label-style">Imię</label
+                            ><input
+                                class="input-style"
+                                id="name"
+                                type="text"
+                                name="name"
+                                required
+                            />
+                            <svg class="icons-form" width="12px" height="12px">
+                                <use
+                                    href="./images/icons.svg#icon-person-black-18dp-1"
+                                ></use>
+                            </svg>
+                        </div>
+                        <div class="form-parts-style">
+                            <label for="phone" class="label-style"
+                                >Telefon</label
+                            ><input
+                                class="input-style"
+                                id="phone"
+                                type="tel"
+                                name="phone-number"
+                                required
+                            />
+                            <svg class="icons-form" width="12px" height="12px">
+                                <use
+                                    href="./images/icons.svg#icon-phone-black-18dp-1"
+                                ></use>
+                            </svg>
+                        </div>
+                        <div class="form-parts-style">
+                            <label for="mail" class="label-style">E-mail</label
+                            ><input
+                                class="input-style"
+                                id="mail"
+                                type="email"
+                                name="e-mail-adress"
+                                required
+                            />
+                            <svg class="icons-form" width="12px" height="12px">
+                                <use
+                                    href="./images/icons.svg#icon-email-black-18dp-1"
+                                ></use>
+                            </svg>
+                        </div>
+                        <label for="comment" class="label-style"
+                            >Komentarz</label
+                        >
+                        <textarea
+                            id="comment"
+                            name="comment"
+                            placeholder="Wprowadź tekst"
+                            class="input-style textarea"
+                        ></textarea>
+                    </div>
+                    <label class="checkbox-label">
+                        <input
+                            class="hidden-checkbox"
+                            type="checkbox"
+                            width="16px"
+                            height="15px"
+                            name="acceptation-reg"
+                            required
+                        />
+                        <svg
+                            class="checkbox-icon-empty"
+                            width="16px"
+                            height="15px"
+                        >
+                            <use href="./images/icons.svg#icon-Vector1"></use>
+                        </svg>
+                        <svg
+                            class="checkbox-icon-tick"
+                            width="16px"
+                            height="15px"
+                        >
+                            <use href="./images/icons.svg#icon-Vector"></use>
+                        </svg>
+                        <div class="checkbox-text">
+                            Oświadczam, iż akceptuję <a href="#">Regulamin</a> i
+                            <a href="#">Politykę Prywatności</a>
+                        </div>
+                    </label>
+                    <button type="submit" class="modal-button">Wyślij</button>
+                </form>
             </div>
         </div>
         <script src="./js/modal.js"></script>
