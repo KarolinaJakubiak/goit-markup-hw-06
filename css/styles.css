@@ -554,6 +554,7 @@ a:focus {
     border-radius: 4px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     color: var(--snow);
+    text-align: center;
     cursor: pointer;
     width: 200px;
     height: 55px;
@@ -570,4 +571,8 @@ a:focus {
     display: flex;
     justify-content: space-between;
     background-color: var(--dark-grey);
+}
+.send-icon {
+    fill: var(--snow);
+    margin-left: 24px;
 }
